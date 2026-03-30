@@ -19,7 +19,7 @@ const Navbar = () => {
               <li><a>FAQ</a></li>
             </ul>
           </div>
-          <a className="p-4 text-4xl font-bold bg-linear-to-r from-[#4F39F6] to-[#4F39F6] bg-clip-text text-transparent">DigiTools</a>
+          <a className="p-4 text-4xl font-bold bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">DigiTools</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-bold text-xl">
@@ -31,6 +31,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <p className='text-2xl text-red-600'>Login</p>
           <a className="btn rounded-full bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">Get Started</a>
         </div>
       </div>
