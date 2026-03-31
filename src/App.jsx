@@ -1,11 +1,19 @@
 
 import './App.css'
 import Banner from './components/banner/Banner'
-import Card from './components/card/Card'
 import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
+import Models from './components/models/Models'
 import Navbar from './components/navbar/navbar'
 import Rating from './components/rating/Rating'
+import Started from './components/started/Started'
+
+const getModels = async () => {
+  const res = await fetch('/data.json');
+  return res.json();
+}
+
+const modelsPromise = getModels();
 
 function App() {
 
@@ -15,7 +23,8 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Rating></Rating>
-      <Card></Card>
+      <Models modelsPromise={modelsPromise}></Models>
+      <Started></Started>
       <Banner></Banner>
       <Footer></Footer>
     </>

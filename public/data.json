@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Builder",
+    "description": "Create professional resumes instantly\nOptimized for ATS systems",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "ChatPro Assistant",
+    "description": "AI chatbot for daily productivity\nSupports multi-language conversations",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Real-time chat", "Voice input", "Smart suggestions"],
+    "icon": "💬"
+  },
+  {
+    "id": 3,
+    "name": "DesignGen Studio",
+    "description": "Generate stunning designs using AI\nPerfect for social media content",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Auto design generator", "Brand kit support", "HD export"],
+    "icon": "🎨"
+  },
+  {
+    "id": 4,
+    "name": "CodeAssist AI",
+    "description": "Boost coding productivity with AI\nSupports multiple programming languages",
+    "price": 20,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Code suggestions", "Bug detection", "Auto documentation"],
+    "icon": "💻"
+  },
+  {
+    "id": 5,
+    "name": "VoiceClone Pro",
+    "description": "Clone voices with high accuracy\nIdeal for content creators",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Voice cloning", "Multi-language support", "Audio export"],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "VideoGen AI",
+    "description": "Create videos from text prompts\nFast and easy video editing",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Text-to-video", "Templates library", "4K export"],
+    "icon": "🎬"
+  },
+  {
+    "id": 7,
+    "name": "DataInsight AI",
+    "description": "Analyze data with AI-driven insights\nPerfect for business analytics",
+    "price": 99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Data visualization", "Predictive analytics", "Dashboard export"],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "EmailWriter AI",
+    "description": "Generate professional emails instantly\nImprove communication efficiency",
+    "price": 5,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Email templates", "Tone adjustment", "Auto reply suggestions"],
+    "icon": "✉️"
+  }
+]

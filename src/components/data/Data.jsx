@@ -1,13 +1,11 @@
 import React from 'react';
 
-const Card = () => {
+const Data = () => {
   return (
     <div>
       
-   
-
-    </div >
+    </div>
   );
 };
 
-export default Card;
+export default Data;
