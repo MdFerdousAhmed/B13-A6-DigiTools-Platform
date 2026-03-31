@@ -1,4 +1,5 @@
 import React from 'react';
+import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -21,8 +22,8 @@ const Navbar = () => {
           </div>
           <a className="p-4 text-4xl font-bold bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">DigiTools</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 font-bold text-xl">
+        <div className="navbar-center hidden lg:flex gap-2">
+          <ul className="menu menu-horizontal px-1 font-semibold text-xl">
             <li><a>Products</a></li>
             <li><a>Features</a></li>
             <li><a>Pricing</a></li>
@@ -30,8 +31,9 @@ const Navbar = () => {
             <li><a>FAQ</a></li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <p className='text-2xl text-red-600'>Login</p>
+        <div className="navbar-end flex gap-2">
+          <CiShoppingCart className='text-2xl font-semibold' />
+          <p className='text-xl font-semibold '>Login</p>
           <a className="btn rounded-full bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">Get Started</a>
         </div>
       </div>
