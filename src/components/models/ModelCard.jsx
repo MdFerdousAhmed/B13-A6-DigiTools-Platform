@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ModelCard = ({model,cartItems, setCartItems}) => {
   const [isBuying, setIsBuying] = useState(false);
@@ -6,9 +7,9 @@ const ModelCard = ({model,cartItems, setCartItems}) => {
   const handleBuy = () => {
     setIsBuying(true);
     setCartItems([...cartItems, model]);
-  };
+    toast.success( "added to cart!");
 
-
+  }
   return (
     <div className='border p-4 shadow-lg rounded-lg overflow-hidden border-zinc-300 card-body'>
       <div className='flex justify-between'>

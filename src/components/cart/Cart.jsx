@@ -1,9 +1,10 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Cart = ({ cartItems, setCartItems }) => {
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
   const handelPayment = () => {
-    alert('Payment Successful');
+    toast.success("Payment successful! Thank you for your purchase.");
     setCartItems([]);
   }
   return (
@@ -26,7 +27,10 @@ const Cart = ({ cartItems, setCartItems }) => {
                     </div>
                   </div>
                   <div className='flex justify-end'>
-                    <button onClick={() => setCartItems(cartItems.filter(cartItem => cartItem.id !== item.id))} className='btn bg-red-500 text-white btn-sm rounded-full mt-2'>Remove</button>
+                    <button onClick={() => {
+                      setCartItems(cartItems.filter(cartItem => cartItem.id !== item.id));
+                      toast.error("Item removed from cart!");
+                    }} className='btn bg-red-500 text-white btn-sm rounded-full mt-2'>Remove</button>
                   </div>
                 </div>
 
