@@ -3,7 +3,7 @@
     "id": 1,
     "name": "ResumeAI Builder",
     "description": "Create professional resumes instantly\nOptimized for ATS systems",
-    "price": 0,
+    "price": 35,
     "period": "one-time",
     "tag": "popular",
     "tagType": "popular",
@@ -96,6 +96,6 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Email templates", "Tone adjustment", "Auto reply suggestions"],
-    "icon": "✉️"
+    "icon": "🎨"
   }
 ]

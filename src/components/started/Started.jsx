@@ -7,7 +7,7 @@ const Started = () => {
   return (
     <div className='mix-w-[80%] mx-auto grid pb-20'>
       <div className=' text-center p-4'>
-        <h1 className='text-4xl font-bold'>Get Started in 3 Steps</h1>
+        <h1 className='text-4xl font-bold mb-4'>Get Started in 3 Steps</h1>
         <p className='text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 p-4 w-[90%]  mx-auto'>

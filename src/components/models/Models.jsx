@@ -46,7 +46,7 @@ const Models = ({ modelsPromise }) => {
               ? "bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white"
               : ""
           }`}
-          aria-label="Card"
+          aria-label={`Cart (${cartItems.length})`}
           checked={activeTab === "card"}
           onChange={() => setActiveTab("card")}
         />
