@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 
-const ModelCard = ({model}) => {
+const ModelCard = ({model,cartItems, setCartItems}) => {
   const [isBuying, setIsBuying] = useState(false);
 
   const handleBuy = () => {
     setIsBuying(true);
+    setCartItems([...cartItems, model]);
   };
 
 
   return (
-    <div className='border p-4 shadow-lg rounded-lg overflow-hidden border-zinc-300'>
+    <div className='border p-4 shadow-lg rounded-lg overflow-hidden border-zinc-300 card-body'>
       <div className='flex justify-between'>
         <div className='border p-2 border-zinc-300 rounded-full'>{model.icon}</div>
         <div>

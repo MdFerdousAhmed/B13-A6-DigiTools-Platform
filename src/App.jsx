@@ -1,6 +1,8 @@
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './components/banner/Banner'
+import Cart from './components/cart/Cart'
 import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
 import Models from './components/models/Models'
@@ -24,7 +26,7 @@ const getPricingCart = async () => {
 const pricingCartPromise = getPricingCart();
 
 function App() {
-
+   
 
   return (
     <>
@@ -32,7 +34,7 @@ function App() {
       <Hero></Hero>
       <Rating></Rating>
       <Models modelsPromise={modelsPromise}></Models>
-      
+      {/* <Cart></Cart> */}
       <Started></Started>
       <PricingCart pricingCartPromise={pricingCartPromise}></PricingCart>
       <Banner></Banner>

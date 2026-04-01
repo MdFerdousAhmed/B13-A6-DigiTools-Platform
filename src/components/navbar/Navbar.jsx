@@ -1,6 +1,5 @@
 import React from 'react';
-import { CiShoppingCart } from "react-icons/ci";
-
+import Card from '../../assets/products/shopping-cart.png';
 const Navbar = () => {
   return (
     <div>
@@ -32,7 +31,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-2">
-          <CiShoppingCart className='text-2xl font-semibold' />
+          <p><img src={Card} alt="Shopping Cart" className="h-6 w-6 font-bold text-black" /></p>
           <p className='text-xl font-semibold '>Login</p>
           <a className="btn rounded-full bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">Get Started</a>
         </div>

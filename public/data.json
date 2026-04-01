@@ -86,5 +86,16 @@
     "tagType": "best seller",
     "features": ["Email templates", "Tone adjustment", "Auto reply suggestions"],
     "icon": "✉️"
+  },
+  {
+    "id": 9,
+    "name": "Studio AI",
+    "description": "Generate professional emails instantly\nImprove communication efficiency",
+    "price": 50,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Email templates", "Tone adjustment", "Auto reply suggestions"],
+    "icon": "✉️"
   }
 ]
