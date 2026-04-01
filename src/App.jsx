@@ -24,6 +24,7 @@ function App() {
       <Hero></Hero>
       <Rating></Rating>
       <Models modelsPromise={modelsPromise}></Models>
+      
       <Started></Started>
       <Banner></Banner>
       <Footer></Footer>

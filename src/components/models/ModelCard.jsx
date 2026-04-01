@@ -22,7 +22,7 @@ const ModelCard = ({model}) => {
       <div className='font-semibold text-xl'>${model.price}/Month</div>
       <p className="py-2 text-[#627382]">{model.features}</p>
       <div className="mt-6">
-        <button onClick={handleBuy} className="btn bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white btn-block rounded-full">{isBuying ? 'Processing...' : 'Buy Now'}</button>
+        <button onClick={handleBuy} className="btn bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white btn-block rounded-full">{isBuying ? 'Successfully Purchased' : 'Buy Now'}</button>
       </div>
 
     </div>
