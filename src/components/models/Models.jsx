@@ -53,16 +53,20 @@ const Models = ({ modelsPromise }) => {
       </div>
 
       {/* Conditional Render */}
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
-        {activeTab === "products" &&
+      <div className='space-y-4'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+          {activeTab === "products" &&
           models.map((model) => (
             <ModelCard key={model.id} model={model} cartItems={cartItems} setCartItems={setCartItems} />
           ))
         }
+        </div>
 
-        {activeTab === "card" && (
+        <div className='grid grid-cols-1 gap-5'>
+          {activeTab === "card" && (
           <Cart cartItems={cartItems} setCartItems={setCartItems} />
         )}
+        </div>
       </div>
     </div>
   );

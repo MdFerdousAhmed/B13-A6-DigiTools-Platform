@@ -39,7 +39,7 @@ const ModelCard = ({model,cartItems, setCartItems}) => {
           </ul>
       </div>
       <div className="mt-6">
-        <button onClick={handleBuy} className="btn bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white btn-block rounded-full">{isBuying ? 'Successfully Purchased' : 'Buy Now'}</button>
+        <button onClick={handleBuy} className="btn bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-white btn-block rounded-full">{isBuying ? 'Added to Cart' : 'Buy Now'}</button>
       </div>
 
     </div>

@@ -4,19 +4,19 @@ import { toast } from 'react-toastify';
 const Cart = ({ cartItems, setCartItems }) => {
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
   const handelPayment = () => {
-    toast.success("Payment successful! Thank you for your purchase.");
+    toast.success("Delete successful! Thank you.");
     setCartItems([]);
   }
   return (
     <div className='p-10'>
       <h1 className='text-3xl font-bold'>Your Cart</h1>
       {
-        cartItems.length === 0 ? <p className='py-5 text-[#627382]'>Your cart is empty. Please add some products to proceed.</p> : <>
+        cartItems.length === 0 ? <p className='py-5 text-[#627382] text-center font-semibold text-2xl'>Your cart is empty. Please add some products to proceed.</p> : <>
           <div>
             {
               cartItems.map(item => <div key={item.id} className=' flex items-center justify-between border p-4 rounded-lg border-zinc-300'>
-                <div>
-                  <div className='rounded-lg shadow-md p-4 flex gap-4'>
+                <div className='flex justify-between gap-4 shadow-md items-center p-4'>
+                  <div className='rounded-lg  p-4 flex gap-4'>
                     <div className='border p-4 border-zinc-300 rounded-full w-15'>{item.icon}
 
                     </div>
