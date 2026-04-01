@@ -21,3 +21,5 @@ A robust and scalable API built to handle data efficiently and securely. It prov
 - Responsive and visually appealing interface with smooth navigation, tabs, and product cards for a great user experience.
 - Dynamic Product Management
 - Easily display products with pricing, tags (popular, new, best seller), and feature lists using reusable components.
+
+- fixed some bug
